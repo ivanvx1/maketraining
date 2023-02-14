@@ -1,0 +1,146 @@
+/*
+	Theme Name: Mac
+	Theme URI: http://baratijas.awardspace.com/
+	Description: Tema basado en el finder de Leopard
+	Version: 0.8
+	Author: ivanvx
+*/
+
+fieldset,img { border: none; }
+
+body {
+	padding: 0;
+	margin: 10px;
+	background: #303030;
+        color:#505050;
+	font-size: 10pt;
+	font-family: Lucida Grande, Helvetica, Arial, sans-serif !important; 
+	}
+	
+  a {
+	color: #44a1d0;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #5EAFD7;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #ec008c;
+}
+
+/* ---- ( Tables ) ---- */
+table td,table th{text-align:left;border-right:1px solid #fff;padding:.4em .8em;}
+
+table {
+	color: #171616;
+	border-collapse: collapse;
+	border: 1px solid #666666;
+	border-top: none;
+	width: 95%;
+	margin: 0 auto;
+}
+
+tr.odd {
+	background-color: #ebf3ff;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+th {
+	font-size: 105%;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: #f0f0f0;
+	text-align:center;
+	background-color: #303030;
+	height: 33px;
+}
+
+td {
+	border: 1px solid #CCC;
+}
+
+/* end table */
+
+.hid { display: none; }
+
+/*Contenedor*/
+#wrap { background: #fff;
+	border: 1px solid #ccc;
+	margin: 5px;
+	padding: 20px;
+	}
+
+/*Consola*/
+#consola { font-size: 10px; background: #000; color: #fff; width: 60%; margin: 15px;
+	margin-top: 10px; 
+	filter:alpha(opacity=50);
+  -moz-opacity:0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;}
+
+/* Buscador */
+#buscar {
+	background:url(../css/imagenes/buscar.png) repeat-x;
+text-shadow: 2px 2px 1px #fff;
+color: white;
+font-size: 10px;
+font-weight: bold;
+}
+
+#buscar input, select {
+font-size: 10px;
+color: #303030;}
+
+#buscar label {
+text-shadow: 2px 2px 1px #fff;
+color: white;
+font-weight: bold;
+}
+
+#footer {
+	text-align:center;
+}
+
+/* including for compatibility */
+.alignleft {
+	float:left;
+	margin-right:1em;
+	margin-bottom:1em;
+}
+.alignright {
+	float:right;
+	margin-left:1em;
+	margin-bottom:1em;
+}
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	padding-bottom: 6px;
+	margin: 0 auto;
+	/* optional rounded corners for browsers that support it */
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.wp-caption img {
+	border: 0 none;
+}
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
